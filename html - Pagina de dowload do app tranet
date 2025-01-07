@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranet - Baixe Agora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        header {
+            background-color: #0078d7;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .btn-download {
+            display: inline-block;
+            background-color: #0078d7;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+        .btn-download:hover {
+            background-color: #005bb5;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: auto;
+            padding: 10px;
+            background-color: #f4f4f9;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tranet</h1>
+        <p>Conecte-se ao futuro com o Tranet, o melhor aplicativo de internet!</p>
+    </header>
+
+    <main>
+        <img src="https://i.ibb.co/RjMm0c9/20240321-212107-0000.png/600x300" alt="Imagem ilustrativa do Tranet">
+        <p>Baixe agora o Tranet e aproveite uma experiência de internet mais rápida e confiável.</p>
+        <a href="download/tranet-app.zip" class="btn-download">Baixar Agora</a>
+    </main>
+
+    <footer>
+        &copy; 2025 Tranet. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
